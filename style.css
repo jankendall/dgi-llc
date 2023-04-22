@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+  body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #252523;
+    
+  }
+      /* Add custom CSS */
+      .navbar {
+        background-color: #344240;
+        padding: 10px;
+      }
+      .nav-link {
+        color: #E8AE58;
+        font-size: 18px;
+        font-weight: 500;
+        margin-right: 20px;
+      }
+      .nav-link:hover {
+        color: #ffffff;
+        font-weight: bold;
+      }
+      .offcanvas{
+        background-color: #344240;
+      }
+      footer{
+        background-color: #344240;
+        color: #E8AE58;
+      }
+      .bi{
+        color: #ffffff;
+      }
+      #box{
+        color: rgb(255, 255, 255);
+        background-color: #3c4140;
+        
+      }
+      strong{
+        color: #E8AE58;
+        text-decoration: none;
+        
+      }
+      #contact-form{
+        background-color: #3c4140;
+        color: #ffffff;
+      }
+      .form-control{
+        background-color: #3c4140;
+        color: #ffffff;
+      }
+      .btn{
+        background-color: #E8AE58;
+        color: white;
+      }
+  .card-body{
+    background-color: #252523;
+    color: white;
+  }
+  .card-body:hover{
+   background-color: #3c4140;
+   border-radius: 10px;
+  }
+  /* For screens smaller than 576px (e.g., phones) */
+@media (max-width: 575.98px) {
+  /* Add your styles here */
+}
+
+/* For screens between 576px and 768px (e.g., small tablets) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* Add your styles here */
+}
+
+/* For screens between 768px and 992px (e.g., large tablets) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* Add your styles here */
+}
+
+/* For screens between 992px and 1200px (e.g., small laptops) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* Add your styles here */
+}
+
+/* For screens larger than 1200px (e.g., large laptops and desktops) */
+@media (min-width: 1200px) {
+  /* Add your styles here */
+}
